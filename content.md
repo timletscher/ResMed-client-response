@@ -1,5 +1,6 @@
 # ResMed Omnichannel Strategy Microsite — Content Document
 # All copy organized by section with progressive disclosure layers
+# Interaction model: default view shows executive-level summaries only; deeper detail reveals inline when needed. No separate appendix or hidden detail layer.
 
 ---
 

@@ -30,7 +30,13 @@ Rahul (Senior GTS Executive, ResMed) — new to role, not new to company. Needs 
 - Content is layered: headline → summary → detail → supporting context
 - Users control depth; nothing overwhelms on first view
 - Designed for live presentation AND asynchronous exploration
-- No appendices; all detail is inline and expandable
+- All detail is inline and expandable within the same section; there is no appendix or separate deep-dive view
+
+### Presentation-First Interaction Model
+- Default view should feel like a concise executive narrative, not a full document dump
+- Presenter can reveal one layer deeper when a stakeholder asks a follow-up question
+- Important details remain in context so the audience never leaves the main storyline
+- The experience is designed to support both live discussion and self-guided review without breaking the flow
 
 ### Consultative Tone
 - Question-driven, not answer-driven
