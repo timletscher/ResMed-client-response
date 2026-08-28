@@ -221,7 +221,7 @@ a:focus-visible {
 .eyebrow {
   margin-bottom: 0.9rem;
   color: var(--blue);
-  font-size: 1.0rem;
+  font-size: 1.15rem;
   font-weight: 900;
   letter-spacing: 0.17em;
   text-transform: uppercase;
@@ -964,9 +964,9 @@ a:focus-visible {
 
 .phase em {
   color: var(--blue);
-  font-size: 0.66rem;
+  font-size: 1.15rem;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
