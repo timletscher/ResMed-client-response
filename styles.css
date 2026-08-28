@@ -221,7 +221,7 @@ a:focus-visible {
 .eyebrow {
   margin-bottom: 0.9rem;
   color: var(--blue);
-  font-size: 0.7rem;
+  font-size: 1.0rem;
   font-weight: 900;
   letter-spacing: 0.17em;
   text-transform: uppercase;
