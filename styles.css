@@ -549,7 +549,7 @@ a:focus-visible {
   display: block;
   margin-bottom: clamp(3rem, 6vw, 6rem);
   color: #b7bac3;
-  font-size: 0.72rem;
+  font-size: 2.16rem;
   font-weight: 900;
 }
 
@@ -581,6 +581,13 @@ a:focus-visible {
   align-items: baseline;
   gap: 1.4rem;
   margin-bottom: 1.4rem;
+}
+
+.inflection-heading {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+  text-align: left;
 }
 
 .inflection-heading span,
@@ -640,6 +647,7 @@ a:focus-visible {
 .inflection-track .current b { color: var(--cyan); }
 .inflection-track span { color: var(--muted); font-size: 0.74rem; line-height: 1.4; }
 .inflection-track .current span { color: #d0d1d7; }
+.inflection-track li:last-child { margin-left: 1.25rem; }
 
 .questions {
   background: var(--cloud);
