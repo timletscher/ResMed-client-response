@@ -404,23 +404,6 @@ a:focus-visible {
 .journey-card.owner-partner { border-top-color: var(--purple); }
 .journey-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
 
-.journey-card:not(:last-child)::after {
-  content: "→";
-  position: absolute;
-  z-index: 2;
-  top: 1.2rem;
-  right: -0.8rem;
-  width: 1.5rem;
-  height: 1.5rem;
-  display: grid;
-  place-items: center;
-  border-radius: 50%;
-  background: var(--ink);
-  color: var(--paper);
-  font-size: 0.7rem;
-  font-weight: 900;
-}
-
 .journey-number {
   margin-bottom: auto;
   color: #bcc0c9;
