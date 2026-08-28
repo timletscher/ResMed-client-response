@@ -303,73 +303,12 @@ a:focus-visible {
   line-height: 1.52;
 }
 
-.signal-panel {
-  position: relative;
-  padding: clamp(2.1rem, 3.3vw, 3.2rem);
-  background: var(--ink);
-  color: var(--paper);
+.hero-image {
+  width: 100%;
+  max-width: 720px;
+  justify-self: end;
+  display: block;
   box-shadow: 22px 22px 0 var(--cyan);
-}
-
-.signal-panel::before,
-.signal-panel::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  height: 7px;
-}
-
-.signal-panel::before { left: 0; width: 38%; background: var(--coral); }
-.signal-panel::after { right: 0; left: 38%; background: var(--purple); }
-
-.signal-kicker {
-  display: block;
-  margin-bottom: 0.9rem;
-  color: var(--cyan);
-  font-size: 0.68rem;
-  font-weight: 900;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-}
-
-.signal-panel > strong {
-  display: block;
-  font-size: clamp(1.75rem, 2.6vw, 2.9rem);
-  line-height: 1.05;
-  letter-spacing: -0.045em;
-}
-
-.signal-metrics {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin-top: 2.6rem;
-  padding-top: 1.4rem;
-  border-top: 1px solid #343448;
-}
-
-.signal-metrics div {
-  display: grid;
-  gap: 0.35rem;
-}
-
-.signal-metrics b {
-  color: var(--cyan);
-  font-size: clamp(1.85rem, 3vw, 3.35rem);
-  line-height: 1;
-}
-
-.signal-metrics span {
-  color: #c5c6cd;
-  font-size: 0.7rem;
-  line-height: 1.25;
-}
-
-.signal-panel > p {
-  margin: 2rem 0 0;
-  color: var(--muted-light);
-  font-size: 0.78rem;
-  font-weight: 700;
 }
 
 .journey-stage {
@@ -1531,7 +1470,7 @@ a:focus-visible {
   .site-nav { min-height: 44px; border-top: 1px solid #27273a; padding-left: calc(var(--gutter) - 1rem); }
   .site-nav a { padding-inline: 1rem; }
   .hero { grid-template-columns: 1fr; }
-  .signal-panel { max-width: 720px; }
+  .hero-image { max-width: 720px; }
   .journey-grid { overflow-x: auto; padding-bottom: 1rem; scroll-snap-type: x proximity; }
   .journey-card { min-width: 210px; scroll-snap-align: start; }
   .question-layout { grid-template-columns: 1fr; }
@@ -1578,7 +1517,7 @@ a:focus-visible {
   .brand-lockup small { font-size: 0.64rem; }
   .hero { min-height: auto; padding-top: 4rem; }
   .hero h1 { font-size: clamp(3.15rem, 15vw, 5.5rem); }
-  .signal-panel { margin-right: 14px; box-shadow: 14px 14px 0 var(--cyan); }
+  .hero-image { margin-right: 14px; box-shadow: 14px 14px 0 var(--cyan); }
   .signal-metrics { grid-template-columns: 1fr; }
   .section-heading h2,
   .market-pulse h2 { font-size: clamp(2.65rem, 12vw, 4rem); }
@@ -1637,7 +1576,7 @@ a:focus-visible {
   .next-steps { break-inside: avoid; padding-block: 2rem; }
   .reveal { opacity: 1; transform: none; }
   .opportunity { background: var(--paper); }
-  .signal-panel,
+  .hero-image,
   .market-pulse,
   .partner,
   .next-steps { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
