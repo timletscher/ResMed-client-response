@@ -1,94 +1,52 @@
-const expandableTriggers = document.querySelectorAll('.expandable__trigger');
-const nestedTriggers = document.querySelectorAll('.expandable__nested-trigger');
-const metricCards = document.querySelectorAll('.metric-card');
-const expandAllButton = document.querySelector('[data-expand-all="questions"]');
+const navLinks = Array.from(document.querySelectorAll('.site-nav a'));
+const sections = Array.from(document.querySelectorAll('[data-section]'));
+const progressBar = document.querySelector('.scroll-progress span');
+const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-function setExpandedState(element, isExpanded) {
-  const trigger = element.querySelector('.expandable__trigger, .expandable__nested-trigger');
-  if (!trigger) return;
+function updateScrollState() {
+  const scrollTop = window.scrollY;
+  const scrollRange = document.documentElement.scrollHeight - window.innerHeight;
+  const progress = scrollRange > 0 ? Math.min(100, Math.max(0, (scrollTop / scrollRange) * 100)) : 0;
 
-  const ariaValue = isExpanded ? 'true' : 'false';
-  trigger.setAttribute('aria-expanded', ariaValue);
-  element.classList.toggle('expandable--active', isExpanded);
-  if (element.classList.contains('expandable__nested')) {
-    element.classList.toggle('expandable__nested--active', isExpanded);
-  }
-}
+  if (progressBar) progressBar.style.width = `${progress}%`;
 
-expandableTriggers.forEach((trigger) => {
-  const accordion = trigger.closest('.expandable');
+  const marker = scrollTop + Math.min(220, window.innerHeight * 0.32);
+  let current = sections[0]?.id;
 
-  trigger.addEventListener('click', () => {
-    const nextState = !accordion.classList.contains('expandable--active');
-    setExpandedState(accordion, nextState);
-  });
-});
-
-nestedTriggers.forEach((trigger) => {
-  const nestedWrap = trigger.closest('.expandable__nested');
-
-  trigger.addEventListener('click', () => {
-    const nextState = !nestedWrap.classList.contains('expandable__nested--active');
-    setExpandedState(nestedWrap, nextState);
-  });
-});
-
-metricCards.forEach((card) => {
-  card.addEventListener('click', () => {
-    card.classList.toggle('metric-card--active');
-  });
-});
-
-if (expandAllButton) {
-  expandAllButton.addEventListener('click', () => {
-    const sectionCards = document.querySelectorAll('#strategic-questions .expandable');
-    const shouldExpand = !Array.from(sectionCards).every((card) => card.classList.contains('expandable--active'));
-
-    sectionCards.forEach((card) => {
-      setExpandedState(card, shouldExpand);
-    });
-
-    expandAllButton.textContent = shouldExpand ? 'Collapse all questions' : 'Expand all questions';
-  });
-}
-
-const navLinks = document.querySelectorAll('.nav__link');
-const sections = document.querySelectorAll('main section[id]');
-const revealElements = document.querySelectorAll('.fade-in');
-
-function updateActiveNav() {
-  const scrollPosition = window.scrollY + 160;
-
-  let currentId = 'opportunity';
   sections.forEach((section) => {
-    if (scrollPosition >= section.offsetTop) {
-      currentId = section.id;
-    }
+    if (marker >= section.offsetTop) current = section.id;
   });
 
   navLinks.forEach((link) => {
-    const isActive = link.getAttribute('href') === `#${currentId}`;
-    link.classList.toggle('nav__link--active', isActive);
+    const active = link.getAttribute('href') === `#${current}`;
+    link.classList.toggle('active', active);
+    if (active) link.setAttribute('aria-current', 'page');
+    else link.removeAttribute('aria-current');
   });
 }
 
-if ('IntersectionObserver' in window) {
-  const revealObserver = new IntersectionObserver((entries) => {
+if (!reducedMotion && 'IntersectionObserver' in window) {
+  const revealObserver = new IntersectionObserver((entries, observer) => {
     entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('fade-in--visible');
-        revealObserver.unobserve(entry.target);
-      }
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
     });
-  }, {
-    threshold: 0.15,
-    rootMargin: '0px 0px -40px 0px'
-  });
+  }, { threshold: 0.08, rootMargin: '0px 0px -32px 0px' });
 
-  revealElements.forEach((element) => revealObserver.observe(element));
+  document.querySelectorAll('.reveal').forEach((element) => revealObserver.observe(element));
 } else {
-  revealElements.forEach((element) => element.classList.add('fade-in--visible'));
+  document.querySelectorAll('.reveal').forEach((element) => element.classList.add('visible'));
 }
 
-window.addEventListener('scroll', updateActiveNav, { passive: true });
-updateActiveNav();
+document.querySelectorAll('[data-placeholder-link]').forEach((button) => {
+  button.addEventListener('click', () => {
+    const note = document.querySelector('#link-note');
+    if (!note) return;
+    note.textContent = 'Contact and resource links can be connected before client launch.';
+  });
+});
+
+window.addEventListener('scroll', updateScrollState, { passive: true });
+window.addEventListener('resize', updateScrollState, { passive: true });
+updateScrollState();

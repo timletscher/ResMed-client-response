@@ -1,20 +1,26 @@
-# ResMed Client Response Workspace
+# ResMed Omnichannel Strategy Microsite
 
-This workspace is set up for a client response related to ResMed.
+A self-contained static proposal site prepared by Slalom for ResMed. It has no runtime dependencies, external data calls, or build step.
 
-## Structure
+## Run locally
 
-- `notes/` — meeting notes, client context, and working notes
-- `templates/` — reusable response drafts and proposal templates
+From this folder:
 
-## Suggested use
+```sh
+python3 -m http.server 4173
+```
 
-1. Capture client background and requirements.
-2. Draft the response narrative and value proposition.
-3. Track open questions, decisions, and next steps.
+Then open `http://localhost:4173`.
 
-## Quick start
+You can also open `index.html` directly, although a local server is the most reliable way to preview it.
 
-- Update the client profile notes in `notes/client-profile.md`.
-- Use the sample response in `templates/response-draft.md` as a starting point.
-- Keep all final client-facing content in a polished, review-ready format.
+## Distribute
+
+Share the `resmed-proposal-microsite.zip` bundle generated in the parent workspace, or share these four files together:
+
+- `index.html`
+- `styles.css`
+- `script.js`
+- `og.png`
+
+Keep the files in the same folder. Contact and external resource links are intentionally left unconnected until final stakeholder destinations are provided.
