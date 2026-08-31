@@ -1,718 +1,531 @@
-# ResMed Omnichannel Strategy Microsite — Content Document
-# All copy organized by section with progressive disclosure layers
-# Interaction model: default view shows executive-level summaries only; deeper detail reveals inline when needed. No separate appendix or hidden detail layer.
+# ResMed Omnichannel Strategy - Current Site Content
+
+Content source: [index.html](index.html)
 
 ---
 
-## SECTION 1: OPENING — THE OPPORTUNITY
+## Metadata
 
-### Layer 1: Hero (Always Visible)
+**Page title:** Resmed | Omnichannel Strategy
 
-**Headline:**
-Orchestrating the Entire Sleep Health Journey
+**Description:** A strategic point of view for Resmed: orchestrating the entire sleep health journey.
 
-**Subhead:**
-The focus on sleep health, the ŌURA partnership, wearable proliferation, and GLP-1 tailwinds are creating unprecedented consumer demand. The question isn't whether to engage consumers directly—it's how to do it while strengthening the partnerships that built your business.
+**Social title:** Orchestrating the Entire Sleep Health Journey
 
-**CTA Button:**
-The strategic questions we seek to answer ↓
+**Social description:** A strategic point of view for Resmed, prepared by Slalom.
 
----
+**Social image:** og.png
 
-### Layer 2: Supporting Context (Always Visible, Below Hero)
-
-**Brief Paragraph:**
-ResMed is uniquely positioned to determine where consumers enter the sleep health ecosystem, how quickly they get diagnosed, how efficiently they get onto therapy, and how engaged they remain afterward. This isn't about selling CPAP directly to consumers. It's about owning enough of the journey to orchestrate outcomes—for patients, providers, DMEs, and ResMed.
+**Hero image:** images/older-couple.jpg
 
 ---
 
-### Layer 3: Patient Journey Visualization (Always Visible, Interactive)
+## Navigation
 
-**Journey Nodes (left to right):**
+- Opportunity
+- Why now
+- Questions
+- Approach
+- Success
+- Why Slalom
+- Next steps
 
-1. **Awareness**
-   - Label: "Consumer Awareness"
-   - Type: ResMed touchpoint
-   - Detail (on hover/click): "Wearables, health content, sleep assessments, and partner ecosystems drive initial awareness of potential sleep issues."
+---
 
-2. **Screening**
-   - Label: "Screening & Assessment"
-   - Type: ResMed touchpoint
-   - Detail: "Digital sleep assessments, ŌURA integration, and consumer tools help identify undiagnosed individuals and guide them toward formal evaluation."
+## Opportunity
+
+**Eyebrow:** A strategic point of view for Resmed
+
+**Headline:** Orchestrating the entire sleep health pathway.
+
+**Lead:** Consumer expectations are rising. The opportunity is to meet them directly, while strengthening the physicians and DME partners who make better outcomes possible.
+
+**CTA:** Explore the opportunity
+
+### The Opportunity
+
+**Eyebrow:** The opportunity
+
+**Headline:** Resmed can orchestrate the full sleep health pathway.
+
+Resmed is uniquely positioned to influence where consumers enter, how quickly they reach therapy, and how engaged they remain. This is not only about selling CPAP directly to consumers. It is about orchestrating better outcomes for patients, providers, DMEs, and Resmed.
+
+### Journey Ownership Legend
+
+- Resmed-influenced touchpoint
+- Partner-led touchpoint
+
+### Patient Journey
+
+1. **Consumer awareness**
+   - Type: Resmed touchpoint
+   - Copy: Wearables, health content, sleep assessments, and partner ecosystems surface potential sleep issues.
+
+2. **Screening & assessment**
+   - Type: Resmed touchpoint
+   - Copy: Digital assessments, OURA integration, and consumer tools guide undiagnosed individuals toward evaluation.
 
 3. **Diagnosis**
-   - Label: "Diagnosis"
-   - Type: Partner touchpoint (physician)
-   - Detail: "Physicians and sleep specialists conduct formal diagnosis. ResMed can enable faster, more efficient pathways to this step."
+   - Type: Physician touchpoint
+   - Copy: Physicians and sleep specialists make the formal diagnosis; Resmed can enable a faster pathway there.
 
 4. **Prescription**
-   - Label: "Prescription"
-   - Type: Partner touchpoint (physician)
-   - Detail: "The critical handoff from diagnosis to therapy prescription. Conversion rates here directly impact the treated population."
+   - Type: Physician touchpoint
+   - Copy: The critical handoff from diagnosis to therapy directly affects the treated population.
 
-5. **Setup**
-   - Label: "First Setup"
-   - Type: Partner touchpoint (DME)
-   - Detail: "DME suppliers manage device delivery and initial setup. This is a high-friction moment where patients are most likely to drop off."
+5. **First setup**
+   - Type: DME touchpoint
+   - Copy: Device delivery and setup can create high friction-precisely where patients are most likely to drop off.
 
-6. **Adherence**
-   - Label: "90-Day Adherence"
-   - Type: ResMed touchpoint
-   - Detail: "The first 90 days determine long-term therapy success. Digital engagement, coaching, and support dramatically improve outcomes."
+6. **90-day adherence**
+   - Type: Resmed touchpoint
+   - Copy: Digital engagement, coaching, and support during the first 90 days can improve long-term success.
 
-7. **Ongoing**
-   - Label: "Ongoing Engagement"
-   - Type: ResMed touchpoint
-   - Detail: "myAir, resupply, health insights, and connected care keep patients engaged and adherent over the long term."
+7. **Ongoing engagement**
+   - Type: Resmed touchpoint
+   - Copy: myAir, resupply, health insights, and connected care keep patients engaged over time.
 
-**Key Insight (below journey):**
-Rather than eliminating physicians and DMEs, the opportunity is to orchestrate the journey around them—making every handoff faster, smoother, and more likely to result in a treated, adherent patient.
+### Core Opportunity
 
----
+Reduce the friction points along the patient pathway to ensure that all stakeholders (physicians and DMEs) optimize the experience and outcome for the patient.
 
-### Layer 4: Market Data (Expandable)
+### Demand Signals
 
-**Trigger:** "+ View supporting market data"
+**Eyebrow:** Demand signals
 
-**Content:**
-- Approximately 13,000 ŌURA users have moved from the ŌURA app to ResMed.com
-- Thousands completed ResMed's sleep assessment
-- ~75% of those assessed identified as previously undiagnosed
-- Samsung is pursuing FDA clearance for sleep-apnea detection through Galaxy Ring
-- Patients with both PAP and GLP-1 prescriptions are ~11% more likely to initiate PAP therapy
-- ResMed R&D increased 22% in Q4, driven partly by AI-driven patient workflow solutions
-- SG&A rose 10%, driven by marketing and technology investments
+**Headline:** The market is already moving.
 
----
+Public signals point to expanding demand, faster consumer awareness, and growing investment in patient workflows.
+
+- **~13,000:** visits to Resmed.com from the OURA pathway
+- **Thousands:** completed Resmed's sleep assessment
+- **~75%:** identified as previously undiagnosed
+- **~11%:** higher PAP initiation with PAP + GLP-1 prescriptions
+- **+22%:** Q4 R&D growth, partly tied to AI-enabled workflows
+- **+10%:** SG&A growth from marketing and technology investments
+
+Samsung is also pursuing FDA clearance for sleep-apnea detection through Galaxy Ring-another signal that the top of the journey is becoming more competitive.
 
 ---
 
-## SECTION 2: WHY THIS MATTERS
+## Why Now
 
-### Layer 1: Section Header (Always Visible)
+**Eyebrow:** The imperative
 
-**Label:** The Imperative
+**Headline:** Why this matters now.
 
-**Headline:**
-Why This Matters Now
-
-**Description:**
 Three forces are converging to create both an unprecedented opportunity and a closing window for action.
 
----
+### 01 Consumer Expectations Have Changed
 
-### Layer 2: Three Pillar Cards (Always Visible)
+Patients expect seamless, digital-first experiences across the entire healthcare journey-not only at the point of care.
 
-**Card 1: Consumer Expectations Have Changed**
+They research conditions, compare providers and suppliers, expect personalization, and demand transparency. They bring the expectations set by consumer brands into every interaction with the sleep health ecosystem.
 
-Summary (always visible):
-Patients now expect seamless, digital-first experiences across their entire healthcare journey—not just at the point of care.
+### 02 Market Dynamics Have Shifted
 
-Detail (expandable):
-The consumer healthcare experience has fundamentally shifted. Patients research conditions online, expect personalized digital engagement, compare providers and suppliers, and demand transparency. They don't distinguish between their experience with a health brand and their experience with any other consumer brand. The bar has been set by companies outside healthcare, and patients bring those expectations into every interaction with the sleep health ecosystem.
+Wearables, GLP-1s, and big tech are expanding the addressable market-and reshaping who owns the consumer relationship.
 
----
+Apple, Samsung, and OURA put sleep data on millions of wrists. Consumers are forming relationships with technology brands before they encounter Resmed. The strategic question is who captures that demand.
 
-**Card 2: Market Dynamics Have Shifted**
+### 03 The Window Is Closing
 
-Summary (always visible):
-Wearables, GLP-1s, and big tech are expanding the addressable market—but also reshaping who controls the consumer relationship.
-
-Detail (expandable):
-Apple, Samsung, and ŌURA are putting sleep health data on millions of wrists. GLP-1 medications are driving broader metabolic health awareness and increasing PAP therapy initiation. These are structural tailwinds that expand the total addressable market. But they also mean consumers are forming relationships with technology brands before they ever encounter ResMed. The question is whether ResMed captures that demand or cedes the top of the funnel to others.
-
----
-
-**Card 3: The Window Is Closing**
-
-Summary (always visible):
 Early movers in consumer health orchestration will define the category. Fast followers will struggle to differentiate.
 
-Detail (expandable):
-The companies that build direct consumer relationships now—while the market is expanding and before competitive dynamics harden—will have compounding advantages: richer data, stronger brand affinity, more efficient acquisition, and deeper engagement. Waiting means competing for attention in a more crowded, more expensive landscape. The infrastructure decisions made in the next 12-18 months will determine competitive positioning for the next decade.
+Direct relationships can compound into richer data, stronger brand affinity, more efficient acquisition, and deeper engagement. The next 12-18 months may shape competitive positioning for the next decade.
+
+### Market Inflection Points
+
+**Headline:** Momentum is compounding.
+
+- **2022:** Apple Watch sleep tracking accelerates awareness
+- **2023:** GLP-1 adoption drives metabolic-health interest
+- **2024:** OURA partnership launches; Galaxy Ring advances
+- **2025:** 13K+ referrals; 75% previously undiagnosed
+- **2026:** The window for strategic action
+- **2027+:** Early-mover advantages begin to compound
 
 ---
 
-### Layer 3: Timeline (Expandable)
+## Strategic Questions
 
-**Trigger:** "+ View key inflection points"
+**Eyebrow:** Strategic questions Slalom would want to explore
 
-**Timeline Events:**
+**Headline:** Clarity before commitment.
 
-- **2022:** Apple Watch adds sleep tracking; consumer awareness of sleep health accelerates
-- **2023:** GLP-1 medications reach mainstream adoption; metabolic health awareness surges
-- **2024:** ŌURA partnership launches; Samsung pursues FDA clearance for sleep apnea detection via Galaxy Ring
-- **2025:** ResMed reports 13K+ ŌURA users converting; 75% previously undiagnosed; R&D investment up 22%
-- **2026:** [The window for strategic action]
-- **2027+:** Market dynamics harden; early movers have compounding advantages
+Moving into direct consumer engagement while maintaining B2B partnerships requires connected decisions across four domains. Slalom recommends answering these questions to de-risk any decisions about platforms and technology.
 
----
+### One Connected Decision System
 
----
+Strategy shapes experience. Experience drives technology. Technology enables the organization.
 
-## SECTION 3: THE STRATEGIC CHALLENGE
+- Strategy
+- Experience
+- Technology
+- Organization
 
-### Layer 1: Section Header (Always Visible)
+### 01 Strategy
 
-**Label:** Strategic Questions
+**Subtitle:** Business model + market positioning
 
-**Headline:**
-Before You Build an Omnichannel Strategy, Finding Answers to Strategic Questions Is the First Step
+#### Questions to Answer
 
-**Description:**
-The complexity of moving into direct consumer engagement while maintaining B2B partnerships requires clarity across four interconnected domains. Jumping to technology solutions before answering these questions leads to expensive mistakes.
+- How do we engage consumers directly without damaging B2B partnerships?
+- Where should Resmed be visible across the patient continuum?
+- What business model works for patients, caregivers, providers, DMEs, and Resmed?
 
-**Expand All Button:** "Expand all questions"
+#### What We Would Examine
 
----
+- **Channel conflict:** Position Resmed as an enabler, not a competitor.
+- **Pricing transparency:** Protect trust across consumer and B2B channels.
+- **Value exchange:** Define why direct engagement matters at each stage.
+- **Regulatory boundaries:** Clarify where provider-led care must remain.
+- **Revenue model:** Balance direct revenue with ecosystem demand creation.
+- **Partner enablement:** Make physicians and DMEs more effective.
 
-### Layer 2: Four Domain Cards (Always Visible as Cards, Expandable)
+### 02 Experience
 
----
+**Subtitle:** Patient journey + touchpoint design
 
-#### DOMAIN 1: STRATEGY
+#### Questions to Answer
 
-**Card Title:** Strategy
-**Card Subtitle:** Business model and market positioning
-**Card Icon:** Compass or target icon
-
-**Layer 2 — Questions (expand on card click):**
-
-- How do we engage consumers directly without cannibalizing or damaging B2B partnerships?
-- Where should ResMed be visible across the patient journey?
-- What's the business model that works for patients, caregivers, providers, DME suppliers, and ResMed?
-
-**Layer 3 — Key Considerations (expand on "+ Show key considerations"):**
-
-- Channel conflict: How do we ensure DMEs see ResMed as an enabler, not a competitor?
-- Pricing transparency: How do we manage consumer-facing pricing without undermining B2B relationships?
-- Value exchange: What does ResMed provide that justifies direct patient engagement at each stage?
-- Regulatory boundaries: Where can we engage directly vs. where must we defer to licensed providers?
-- Revenue model: Is the goal direct revenue, or is it demand generation and conversion optimization that benefits the entire ecosystem?
-- Partner enablement: How do we make DMEs and physicians more effective, not less relevant?
-
----
-
-#### DOMAIN 2: EXPERIENCE
-
-**Card Title:** Experience
-**Card Subtitle:** Patient journey and touchpoint design
-**Card Icon:** User/person icon or journey path icon
-
-**Layer 2 — Questions (expand on card click):**
-
-- What does "orchestration" look like at each touchpoint across the patient journey?
+- What does orchestration look like at every patient touchpoint?
 - How do we personalize engagement without overwhelming patients?
-- Where are the highest-value intervention points in the purchase experience?
+- Where are the highest-value interventions in the purchase experience?
 
-**Layer 3 — Key Considerations (expand on "+ Show key considerations"):**
+#### What We Would Examine
 
-- Journey mapping: What does the current experience actually look like from the patient's perspective—including gaps, friction, and drop-off points?
-- Personalization: What data do we need to deliver relevant, timely engagement at each stage?
-- Channel strategy: Which touchpoints should be digital, human, automated, or blended?
-- Caregiver experience: How do we support the people who influence and support patients (partners, family members)?
-- Handoff design: How do we make transitions between ResMed, physicians, and DMEs feel seamless to the patient?
-- Content and education: What information do patients need at each stage, and how should it be delivered?
+- **Journey mapping:** See the experience, friction, and drop-off through patients' eyes.
+- **Personalization:** Identify the data needed for timely relevance.
+- **Channel strategy:** Balance digital, human, automated, and blended moments.
+- **Caregiver experience:** Support the people who influence patients.
+- **Handoff design:** Make Resmed, physician, and DME transitions seamless.
+- **Content + education:** Deliver the right information at the right moment.
 
----
+### 03 Technology
 
-#### DOMAIN 3: TECHNOLOGY
+**Subtitle:** Architecture + platform capabilities
 
-**Card Title:** Technology
-**Card Subtitle:** Architecture and platform capabilities
-**Card Icon:** Circuit/nodes icon or stack icon
+#### Questions to Answer
 
-**Layer 2 — Questions (expand on card click):**
-
-- Can our current architecture support real-time, personalized engagement across channels?
+- Can the current architecture support real-time, personalized engagement?
 - How do we unify patient data across systems and touchpoints?
-- What platforms and capabilities do we need vs. what can we leverage from what we already have?
+- What capabilities do we need, and what can we reuse?
 
-**Layer 3 — Key Considerations (expand on "+ Show key considerations"):**
+#### What We Would Examine
 
-- Data unification: How do we create a single view of the patient across 19+ systems and touchpoints?
-- Real-time capability: Which interactions require real-time data and decisioning vs. batch processing?
-- Platform consolidation: What's the right approach to rationalizing existing platforms without disrupting current operations?
-- Integration architecture: How do systems need to exchange information across commerce, CRM, ERP, and partner platforms?
-- AI and automation: Where can AI-driven workflows accelerate patient progression and improve adherence?
-- Scalability: Can the architecture support growth from current volumes to a significantly larger consumer-engaged population?
-- Build vs. buy: Where do we need custom capabilities vs. where can we leverage existing platforms?
+- **Data unification:** Create one patient view across systems and touchpoints.
+- **Identity resolution + consent management:** Unify patient identity across channels while maintaining consent integrity and regulatory compliance (US + international).
+- **Real-time capability:** Separate immediate decisions from batch workflows.
+- **Platform consolidation:** Rationalize without disrupting operations.
+- **Integration architecture:** Connect commerce, CRM, ERP, and partners.
+- **AI + automation:** Accelerate progression and adherence workflows.
+- **Scale + sourcing:** Test capacity and make build-vs.-buy decisions.
 
----
+### 04 Organization
 
-#### DOMAIN 4: ORGANIZATION
+**Subtitle:** Operating model + change readiness
 
-**Card Title:** Organization
-**Card Subtitle:** Operating model and change readiness
-**Card Icon:** People/org chart icon
+#### Questions to Answer
 
-**Layer 2 — Questions (expand on card click):**
+- Do we have the operating model to execute DTC alongside B2B?
+- How do we align stakeholders around a shared vision?
+- What new capabilities and roles will the organization need?
 
-- Do we have the operating model to execute a DTC strategy alongside B2B?
-- How do we align internal stakeholders around a shared vision?
-- What new capabilities and roles do we need?
+#### What We Would Examine
 
-**Layer 3 — Key Considerations (expand on "+ Show key considerations"):**
+- **Operating model:** Identify where silos interrupt end-to-end engagement.
+- **Talent + capabilities:** Define missing consumer, product, and CX skills.
+- **Governance:** Clarify ownership and cross-business decision rights.
+- **Change management:** Build participation without creating resistance.
+- **Partner alignment:** Communicate the strategy in a trust-building way.
+- **Measurement:** Create accountability across shared journey ownership.
 
-- Operating model: Does the current organizational structure support end-to-end consumer engagement, or does it create silos?
-- Talent and capabilities: What skills are needed that don't exist today (e.g., consumer marketing, digital product management, CX design)?
-- Governance: Who owns the consumer relationship? How do decisions get made across business units?
-- Change management: How do we bring existing teams along without creating resistance?
-- Partner alignment: How do we communicate the strategy to DMEs and physicians in a way that builds trust?
-- Measurement: How do we define success and hold teams accountable across a journey that spans multiple owners?
+### Connection Statement
 
----
-
-### Layer 4: Interconnection Note (Always Visible, Below Cards)
-
-**Key Message:**
-These domains are deeply interconnected. Strategy decisions determine experience requirements. Experience requirements drive technology needs. Technology capabilities constrain or enable organizational change. Answering them in isolation leads to misalignment. Answering them together—in a structured discovery—creates clarity and alignment.
+Answering each domain together in a structured discovery creates clarity and shared conviction.
 
 ---
 
----
+## Slalom's Approach
 
-## SECTION 4: THE APPROACH — DISCOVERY BEFORE DECISIONS
+**Eyebrow:** Slalom's approach
 
-### Layer 1: Section Header (Always Visible)
+**Headline:** A phased approach to de-risk transformation.
 
-**Label:** Our Approach
+While we think this is a multi-year transformation, we recommend starting with strategy. A structured discovery ensures you invest in the right things before committing to platforms, partners, or organizational change. Before committing to full implementation, a pilot phase lets Resmed experiment its way to success.
 
-**Headline:**
-A Phased Approach to De-Risk Transformation
+### Roadmap
 
-**Description:**
-Start with strategy, not technology. Learn before you scale. A structured discovery ensures you're investing in the right things before committing to platforms, partners, or organizational change.
+1. **Phase 01: Strategic assessment + pilot design**
+   - Duration: 8-12 weeks
+   - Status: This is what we're proposing
+   - Copy: Answer the strategic questions, define the future state, and design the highest-value pilots.
 
----
+2. **Phase 02: Pilot build + test**
+   - Duration: 6-12 months
+   - Status: Learn in market
+   - Copy: Launch 1-2 experiences, test with real patients, measure results, and iterate.
 
-### Layer 2: Roadmap Overview (Always Visible)
+3. **Phase 03: Scale + optimize**
+   - Duration: 1+ years
+   - Status: Scale what works
+   - Copy: Extend proven experiences, consolidate platforms, and embed new capabilities.
 
-**Three phases displayed as timeline:**
+### Phase 01 in Focus
 
-| Phase | Name | Duration | Status |
-|-------|------|----------|--------|
-| 1 | Strategic Assessment + Pilot Design | 8–12 weeks | ACTIVE (full color) |
-| 2 | Pilot Build + Test | 6–12 months | MUTED (grayed) |
-| 3 | Scale + Optimize | 1+ years | MUTED (grayed) |
+**Headline:** Strategic assessment + pilot design
 
----
+A focused engagement that creates the confidence to invest: a target state, aligned choices, and a pilot ready to build.
 
-### Layer 3: Phase Details (Expandable per Phase)
+#### Workstreams
 
----
+1. **Phase 01.01 Current state assessment**
+   - Patient journey mapping
+   - Technology capability inventory
+   - Organizational readiness
+   - Partner ecosystem analysis
 
-#### PHASE 1: Strategic Assessment + Pilot Design (8–12 Weeks)
+2. **02 Future-state visioning**
+   - Target architecture
+   - Journey orchestration model
+   - Business model trade-offs
+   - Operating model recommendations
 
-**Status:** This is what we're proposing
+3. **Phase 01.03 Gap analysis**
+   - Capability gaps
+   - Technology + integration gaps
+   - Organization + talent gaps
+   - Data + analytics gaps
 
-**Summary (visible on expand):**
-A focused engagement to answer the strategic questions, define the future-state vision, and design a pilot that tests the highest-value hypotheses before committing to full-scale transformation.
+4. **Phase 01.04 Pilot design**
+   - 1-2 high-value use cases
+   - Success metrics
+   - Minimum viable experience
+   - Implementation plan
 
-**What We'll Do:**
+#### What You'll Have
 
-- **Current State Assessment**
-  - Patient journey mapping across all touchpoints
-  - Technology stack audit and capability inventory
-  - Organizational readiness evaluation
-  - Partner ecosystem analysis (DME, physician, payer relationships)
-
-- **Future State Visioning**
-  - Target architecture and platform strategy
-  - Experience design and journey orchestration model
-  - Business model options and trade-off analysis
-  - Operating model recommendations
-
-- **Gap Analysis**
-  - Capability gaps between current and future state
-  - Technology gaps and integration requirements
-  - Organizational and talent gaps
-  - Data and analytics gaps
-
-- **Pilot Design**
-  - Identify 1–2 high-value use cases to test and learn
-  - Define success metrics and measurement approach
-  - Design the minimum viable experience
-  - Create implementation plan for pilot build
-
-**What You'll Have:**
-
-- Clarity on the strategic questions across all four domains
+- Clarity across all four strategic domains
 - A target architecture and technology roadmap
-- A prioritized set of requirements organized by launch phase
+- Requirements prioritized by launch phase
 - A pilot ready to build and test
-- Organizational alignment and stakeholder buy-in
-- A clear path from assessment into execution
+- Stakeholder alignment and buy-in
+- A clear path into execution
 
-**Layer 4 — Detailed Week-by-Week (Expandable within Phase 1):**
+### 12-Week Working Plan
 
-**Trigger:** "+ View detailed timeline"
+**Headline:** Four decisions. One connected path.
 
-- **Weeks 1–3: Discovery & Current State**
-  - Stakeholder interviews across operations, technology, marketing, clinical, and partnerships
-  - Patient journey documentation (as-is)
-  - Technology landscape mapping
-  - Data flow and integration inventory
-  - Competitive and market analysis
+1. **Weeks 01-03: Discover**
+   - Stakeholder interviews, as-is journey, technology landscape, data flows, and market context.
 
-- **Weeks 4–6: Future State Design**
-  - Future-state patient journey design (to-be)
-  - Target architecture definition
-  - Business model and channel strategy options
-  - Experience design principles and touchpoint strategy
-  - Operating model recommendations
+2. **Weeks 04-06: Envision**
+   - Future journey, target architecture, channel options, experience principles, and operating model.
 
-- **Weeks 7–9: Gap Analysis & Requirements**
-  - Current vs. future state gap identification
-  - Prioritized requirements and user stories
-  - Integration architecture and data strategy
-  - Build vs. buy analysis
-  - Risk assessment and mitigation planning
+3. **Weeks 07-09: Prioritize**
+   - Gap analysis, requirements, integration and data strategy, sourcing choices, and risk planning.
 
-- **Weeks 10–12: Pilot Design & Roadmap**
-  - Pilot use case selection and design
-  - Success metrics and measurement framework
-  - Implementation roadmap (pilot → scale)
-  - Stakeholder alignment and readout
-  - Transition planning into Phase 2
+4. **Weeks 10-12: Mobilize**
+   - Pilot selection, measurement framework, implementation roadmap, alignment, and transition.
 
----
+### Future Phases
 
-#### PHASE 2: Pilot Build + Test (6–12 Months)
+#### Phase 02 - Pilot Build + Test
 
-**Status:** Muted/grayed — future phase
+**Headline:** Build evidence with real patients.
 
-**Summary (visible on expand):**
-Build and launch 1–2 pilot experiences based on Phase 1 findings. Test hypotheses with real patients. Measure results. Iterate before scaling.
+Design and develop the pilot, integrate platforms and data, launch to a defined cohort, measure outcomes, iterate, and align partners.
 
-**High-Level Scope:**
-- Experience design and development for pilot use cases
-- Platform integration and configuration
-- Data pipeline implementation
-- Pilot launch with defined patient cohort
-- Measurement, learning, and iteration
-- Partner communication and alignment
+**What You'll Know**
 
-**What You'll Know:**
-- Whether the strategic hypotheses hold in practice
-- What works, what doesn't, and what needs to change
-- Actual patient engagement and conversion data
-- Partner reaction and relationship impact
-- Technology performance and scalability indicators
+- Whether hypotheses hold
+- What works and what changes
+- Actual engagement and conversion
+- Partner reaction and impact
+- Technology scale indicators
+
+#### Phase 03 - Scale + Optimize
+
+**Headline:** Extend only what works.
+
+Scale to new use cases and segments, rationalize platforms, build capabilities, advance personalization, optimize continuously, and evolve the partner ecosystem.
+
+**The Principle**
+
+Every phase earns the next investment. This is not a waterfall plan-it is a learning system designed to reduce risk at every step.
 
 ---
 
-#### PHASE 3: Scale + Optimize (1+ Years)
+## Measuring Success
 
-**Status:** Muted/grayed — future phase
+**Eyebrow:** Measuring success
 
-**Summary (visible on expand):**
-Scale proven experiences across the full patient journey. Consolidate platforms. Embed new capabilities into the organization. Optimize continuously.
+**Headline:** How do you know if it's working?
 
-**High-Level Scope:**
-- Rollout to additional use cases and patient segments
-- Platform consolidation and rationalization
-- Organizational change management and capability building
-- Advanced personalization and AI-driven engagement
-- Continuous optimization based on data and outcomes
-- Partner ecosystem evolution
+A successful omnichannel strategy needs a shared view of performance across the entire journey-not only at the point of sale.
 
----
+### 01 Demand Generation
 
-### Key Message (Always Visible, Below Roadmap)
+**Question:** How many consumers enter through Resmed-influenced touchpoints?
 
-**Closing Statement:**
-Every phase builds on the one before it. Phase 1 creates the clarity and alignment needed to invest confidently in Phase 2. Phase 2 generates the evidence needed to scale in Phase 3. This isn't a waterfall plan—it's a learning system designed to reduce risk at every step.
+Measures Resmed's ability to create and capture demand through wearable partnerships, digital content, assessments, and owned or partner channels.
 
----
+- Share of new patients first engaged by Resmed
+- Channel performance across wearable, search, content, and referral
+- Direct vs. traditional acquisition cost
+- OURA pipeline quality and conversion
 
----
+### 02 Conversion
 
-## SECTION 5: WHAT GOOD LOOKS LIKE
+**Question:** How efficiently do patients move from awareness to adherence?
 
-### Layer 1: Section Header (Always Visible)
+Measures progression through the middle of the journey and exposes where patients drop off before therapy becomes a habit.
 
-**Label:** Measuring Success
+- Conversion at every journey stage
+- Highest-friction drop-off points and causes
+- Time-to-therapy by pathway
+- Impact of digital, human, and automated interventions
 
-**Headline:**
-How Do You Know If It's Working?
+### 03 Patient Engagement
 
-**Description:**
-You can't optimize what you can't measure. A successful omnichannel strategy requires clear metrics across the entire patient journey—not just at the point of sale.
+**Question:** How meaningfully do patients interact with Resmed over time?
 
----
+Measures whether patients actively participate in their care through Resmed's digital ecosystem-a leading indicator of adherence.
 
-### Layer 2: Five Metric Cards (Always Visible as Cards, Expandable)
+- Active engagement across myAir, web, app, and email
+- Correlation between engagement and outcomes
+- Highest-performing content and interactions
+- Journey points where engagement declines
 
----
+### 04 Partner Health
 
-#### METRIC 1: Demand Generation
+**Question:** Are physician and DME relationships strengthening as direct engagement grows?
 
-**Title:** Demand Generation
-**Summary:** How many consumers enter the sleep health ecosystem through ResMed-influenced touchpoints?
+This is the critical guardrail: consumer engagement should create value for the ecosystem, not introduce new friction.
 
-**Detail (expandable):**
-This measures ResMed's ability to create and capture demand at the top of the journey. It includes consumers who engage through wearable partnerships, digital content, sleep assessments, and other owned or partnered touchpoints.
+- DME volume and efficiency from Resmed demand
+- Physician perception: enabler or competitor
+- Partner satisfaction trend
+- Retention and new partner acquisition
 
-**Questions we'd help you answer:**
-- What percentage of new patients first engaged through a ResMed touchpoint?
-- How does demand generation compare across channels (wearables, search, content, referral)?
-- What's the cost of acquisition through direct channels vs. traditional pathways?
-- How does the ŌURA pipeline compare to other demand sources in quality and conversion?
+### 05 Business Impact
 
----
+**Question:** Is orchestration driving growth, share, and lifetime value?
 
-#### METRIC 2: Conversion
+Connects the omnichannel strategy to measurable financial performance and long-term competitive advantage.
 
-**Title:** Conversion
-**Summary:** What percentage of patients move from awareness through prescription, setup, and 90-day adherence?
+- Revenue from consumer-influenced pathways
+- Market-share movement by segment
+- Lifetime value by acquisition channel
+- Cost-to-serve by engagement model
+- ROI on technology and marketing investment
 
-**Detail (expandable):**
-This is the "middle funnel" that ResMed has identified as a key opportunity. It measures how efficiently patients progress through each stage of the journey—and where they drop off.
+### 06 Compliance + Patient Trust
 
-**Questions we'd help you answer:**
-- What's the conversion rate at each stage (screening → diagnosis → prescription → setup → adherence)?
-- Where are the biggest drop-off points, and what causes them?
-- How does time-to-therapy compare across different patient pathways?
-- What interventions (digital, human, automated) have the greatest impact on conversion?
+**Question:** Are we maintaining consent integrity and regulatory compliance across all channels?
 
----
+Measures whether omnichannel expansion strengthens-not weakens-patient trust and regulatory standing.
 
-#### METRIC 3: Patient Engagement
+- Consent completion rates by channel and jurisdiction
+- Patient awareness of data sharing across channels
+- Regulatory incidents or compliance gaps
+- Patient satisfaction with consent and privacy controls
+- Audit readiness across systems
 
-**Title:** Patient Engagement
-**Summary:** How often and how meaningfully do patients interact with ResMed platforms throughout their journey?
+### Success Statement
 
-**Detail (expandable):**
-Engagement is a leading indicator of adherence and long-term outcomes. It measures whether patients are actively participating in their care through ResMed's digital ecosystem.
-
-**Questions we'd help you answer:**
-- What's the active engagement rate across platforms (myAir, web, app, email)?
-- How does engagement correlate with adherence and clinical outcomes?
-- What content and interactions drive the highest engagement?
-- At what points in the journey does engagement drop, and how can we intervene?
+Phase 1 establishes the baselines, targets, and measurement infrastructure needed to create one shared definition of success.
 
 ---
 
-#### METRIC 4: Partner Health
+## Why Slalom
 
-**Title:** Partner Health
-**Summary:** Are DME and physician relationships strengthening or straining as direct consumer engagement grows?
+**Eyebrow:** Your partner
 
-**Detail (expandable):**
-This is the critical guardrail. Direct consumer engagement must enhance—not erode—the partner ecosystem. Measuring partner health ensures the strategy creates value for everyone.
+**Headline:** Why this requires a different kind of partner.
 
-**Questions we'd help you answer:**
-- Are DME partners seeing increased volume and efficiency from ResMed's demand generation?
-- How do physicians perceive ResMed's consumer engagement (enabler vs. competitor)?
-- Are partner satisfaction scores stable or improving?
-- What's the impact on partner retention and new partner acquisition?
+Transformation across strategy, experience, technology, and organization needs a partner who can work across all four-not simply deliver a deck or implement a platform.
 
----
+### 01 We've Navigated This Transition Before
 
-#### METRIC 5: Business Impact
+We understand the orchestration model: you are not eliminating partners; you are enabling them.
 
-**Title:** Business Impact
-**Summary:** Is the omnichannel strategy driving measurable growth in revenue, market share, and customer lifetime value?
+We help mature B2B organizations understand how direct consumer engagement changes orders, inventory, support, and information exchange-then identify which capabilities to reuse, evolve, or create.
 
-**Detail (expandable):**
-Ultimately, the strategy must translate into business results. This measures the financial and competitive impact of the transformation.
+- We've built identity resolution and multi-jurisdiction consent frameworks for healthcare organizations expanding into direct-to-consumer. We understand how to unify patient identity across physician, DME, and direct channels while maintaining consent integrity and regulatory compliance-a critical capability that many platforms don't natively support.
 
-**Questions we'd help you answer:**
-- What's the revenue contribution from direct consumer-influenced pathways?
-- How has market share shifted in key segments?
-- What's the customer lifetime value for patients acquired through different channels?
-- How does the cost-to-serve compare across engagement models?
-- What's the ROI on technology and marketing investments in the consumer strategy?
+The result is a practical blueprint that connects future-state choices to detailed design and delivery.
 
----
+### 02 We Bring Strategy and Execution
 
-### Layer 3: Key Message (Always Visible, Below Metrics)
+The people shaping the vision stay connected to the people who make it real.
 
-**Closing Statement:**
-These metrics aren't just about measurement—they're about creating a shared definition of success across the organization. Phase 1 of our engagement would help you establish baselines, set targets, and build the measurement infrastructure needed to track progress.
+Strategists, architects, experience designers, engineers, data specialists, and change practitioners work together from day one.
 
----
+That keeps strategy grounded in what is buildable-and delivery grounded in sound strategy.
 
----
+### 03 We De-Risk Through Learning
 
-## SECTION 6: WHY SLALOM
+Discovery before decisions. Pilots before platforms.
 
-### Layer 1: Section Header (Always Visible)
+A structured assessment aligns future-state process, requirements, integrations, and architecture before implementation begins.
 
-**Label:** Your Partner
+- Validate before over-investing
+- Protect current operations
+- Learn before scaling
+- Align teams before asking them to change
+- Make evidence-led decisions
 
-**Headline:**
-Why This Requires a Different Kind of Partner
+### Phase 01 Team
 
-**Description:**
-An omnichannel transformation that spans strategy, experience, technology, and organizational change requires a partner who can work across all four—not just hand you a strategy deck or implement a platform.
+**Headline:** The right expertise, at the right moment.
 
----
+- **Engagement lead:** Strategic direction + stakeholder management
+- **Strategy lead:** Business model + partner strategy
+- **Experience lead:** Patient journey + touchpoint strategy
+- **Technology lead:** Architecture + platform strategy
+- **Data lead:** Data landscape + analytics strategy
 
-### Layer 2: Three Differentiators (Always Visible, Expandable)
+### How We Work
+
+- Collaborative working sessions
+- Share early and refine together
+- Cross-functional by design
+- Transparent and practical
 
 ---
 
-#### DIFFERENTIATOR 1: We've Navigated This Transition Before
+## Next Steps
 
-**Summary (always visible):**
-We understand the orchestration model—you're not eliminating partners, you're enabling them. We've helped B2B organizations move into direct consumer engagement without disrupting the partnerships that drive their core business.
+**Eyebrow:** Next steps
 
-**Detail (expandable):**
-We've worked with manufacturers who have mature B2B operations and need to understand how direct-to-consumer changes everything: how orders are captured, how inventory is managed, how customers are supported, and how systems exchange information. Our approach starts with understanding the current operating model and identifying which existing capabilities can be reused, which need to evolve, and where D2C requires entirely new capabilities.
+**Headline:** Let's explore what's possible.
 
-The result isn't a technology recommendation—it's a practical blueprint that gives the organization clarity to move into detailed design, implementation, and delivery with confidence.
+We are here to help you ask the right questions-whether you work with us or not. The first step is a conversation about where you are, where you want to go, and what is standing in the way.
 
-**Link:** [Explore our B2B to D2C perspective →]
+**Primary CTA:** Learn about Slalom
 
----
+**Primary CTA link:** https://slalom.com/
 
-#### DIFFERENTIATOR 2: We Bring Strategy AND Execution
+**Secondary CTA:** Explore the assessment
 
-**Summary (always visible):**
-We don't just hand you a strategy deck—we help you build, test, and scale. Our team includes strategists, architects, experience designers, and engineers who work together from day one.
+**Secondary CTA link:** #approach
 
-**Detail (expandable):**
-Too often, strategy engagements produce beautiful decks that sit on shelves. Implementation partners build what they're told without questioning whether it's the right thing. We bridge that gap by keeping strategy and execution connected throughout.
+**Tertiary CTA:** Explore our D2C perspective
 
-Our teams include:
-- **Strategists** who understand business models, market dynamics, and organizational change
-- **Architects** who design scalable, integrated technology ecosystems
-- **Experience designers** who craft patient journeys grounded in research and empathy
-- **Engineers** who build, integrate, and optimize platforms
-- **Data specialists** who unify information and enable personalization
-- **Change practitioners** who help organizations adopt new ways of working
+### Closing Note
 
-This means the strategy we help you define is grounded in what's actually buildable—and the solutions we help you build are grounded in sound strategy.
+**Eyebrow:** The opportunity
+
+Resmed has the market position, clinical credibility, and technology foundation to orchestrate the entire sleep health journey.
+
+The question is how to move from opportunity to execution-thoughtfully, strategically, and without disrupting what already works.
 
 ---
 
-#### DIFFERENTIATOR 3: We De-Risk Through Learning
+## Footer
 
-**Summary (always visible):**
-We believe in discovery before decisions, pilots before platforms. The 8–12 week assessment ensures you're investing in the right things before committing to multi-year transformation.
+Prepared for Resmed by Slalom. Confidential.
 
-**Detail (expandable):**
-A B2B-to-D2C transformation is ultimately an operating model change supported by technology. Organizations often already have many of the foundational capabilities required—inventory, systems, financial controls, supply chain processes. The challenge is determining how those capabilities need to evolve to support a different customer experience and engagement model.
-
-A structured assessment creates that bridge by aligning the future-state process, requirements, integrations, and solution architecture before implementation begins. This means:
-
-- You don't over-invest in technology before validating the strategy
-- You don't disrupt current operations while exploring new models
-- You learn from real patient interactions before scaling
-- You build organizational alignment before asking teams to change
-- You make decisions based on evidence, not assumptions
-
----
-
-### Layer 3: Team & Capabilities (Expandable)
-
-**Trigger:** "+ Meet the team approach"
-
-**Content:**
-Our engagement model brings the right expertise at the right time:
-
-**Phase 1 Team (Assessment):**
-- Engagement Lead: Strategic direction and stakeholder management
-- Strategy Lead: Business model, market positioning, and partner strategy
-- Experience Lead: Patient journey design and touchpoint strategy
-- Technology Lead: Architecture assessment and platform strategy
-- Data Lead: Data landscape, integration, and analytics strategy
-
-**How We Work:**
-- Collaborative working sessions with your teams (not interviews from a distance)
-- Iterative design (share early, refine together, align continuously)
-- Cross-functional by design (strategy, experience, and technology in every conversation)
-- Transparent and practical (no black boxes, no surprises)
-
----
-
----
-
-## SECTION 7: NEXT STEPS
-
-### Layer 1: CTA Section (Always Visible)
-
-**Headline:**
-Let's Explore What's Possible
-
-**Description:**
-We're here to help you ask the right questions—whether you work with us or not. The first step is a conversation about where you are, where you want to go, and what's standing in the way.
-
-**Primary CTA:**
-Schedule a Conversation →
-
-**Secondary CTA:**
-Download the Assessment Framework →
-
-**Tertiary CTA:**
-Explore Our D2C Perspective →
-
----
-
-### Layer 2: Closing Note (Always Visible)
-
-**Final Statement:**
-The companies that will lead the next era of connected health are the ones making strategic infrastructure decisions today. ResMed has the market position, the clinical credibility, and the technology foundation to orchestrate the entire sleep health journey. The question is how to move from opportunity to execution—thoughtfully, strategically, and without disrupting what's already working.
-
-We'd welcome the opportunity to explore that together.
-
----
-
----
-
-## GLOBAL MICROCOPY
-
-### Navigation Labels
-- The Opportunity
-- Why Now
-- Strategic Questions
-- Our Approach
-- Measuring Success
-- Why Slalom
-- Next Steps
-
-### Expand/Collapse Labels
-- "+ Show key considerations"
-- "- Hide considerations"
-- "+ View supporting market data"
-- "- Hide market data"
-- "+ View detailed timeline"
-- "- Hide timeline"
-- "+ Meet the team approach"
-- "- Hide team details"
-- "Expand all questions"
-- "Collapse all questions"
-
-### Tooltips (on hover for journey nodes)
-- "ResMed touchpoint" — "A moment where ResMed can directly engage or influence the patient experience"
-- "Partner touchpoint" — "A moment owned by physicians or DME suppliers where ResMed can enable better outcomes"
-
-### Footer
-- "Prepared for ResMed by Slalom | Confidential"
-- "Questions? Contact [name] at [email]"
-
----
-
-## CONTENT NOTES FOR DEVELOPMENT
-
-### Tone Reminders
-- Use "we" for Slalom, "you" for ResMed
-- Questions are more powerful than statements in Section 3
-- Avoid jargon: say "purchase experience" not "funnel"
-- Frame everything around patient outcomes, not technology
-- Be confident but not presumptuous—we're proposing to help, not claiming to have answers
-
-### Length Guidelines
-- Headlines: 5-10 words
-- Summaries: 1-2 sentences
-- Expanded detail: 2-4 short paragraphs max
-- Bullet points: 6-8 words each where possible
-- Key messages: 1 sentence, memorable
-
-### Confidentiality
-- Do not reference specific ResMed financial data without confirming it's public
-- All market data referenced is from public earnings calls and press releases
-- Do not name specific competitors beyond what's publicly known
-- Include "Confidential" marker in footer
+**Back to top:** Opportunity
