@@ -826,7 +826,7 @@ a:focus-visible {
   color: var(--paper);
   border-left: 7px solid var(--cyan);
   font-size: clamp(1.2rem, 2vw, 1.9rem);
-  font-weight: 800;
+  font-weight: 650;
   line-height: 1.35;
   letter-spacing: -0.025em;
 }
@@ -1184,14 +1184,14 @@ a:focus-visible {
 .metric li {
   position: relative;
   padding-left: 1rem;
-  font-size: 0.75rem;
-  font-weight: 750;
+  font-size: 1.125rem;
+  font-weight: 500;
 }
 
 .metric li::before {
   content: "";
   position: absolute;
-  top: 0.48rem;
+  top: 0.68rem;
   left: 0;
   width: 0.35rem;
   height: 0.35rem;
@@ -1232,7 +1232,7 @@ a:focus-visible {
   display: block;
   margin-bottom: clamp(3.5rem, 7vw, 6.5rem);
   color: var(--cyan);
-  font-size: 0.72rem;
+  font-size: 1.44rem;
   font-weight: 900;
 }
 
