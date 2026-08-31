@@ -1,6 +1,6 @@
 # ResMed Omnichannel Strategy - Current Site Content
 
-Content source: [index.html](index.html)
+Content sources: [index.html](index.html) and [client-stories.html](client-stories.html)
 
 ---
 
@@ -28,6 +28,7 @@ Content source: [index.html](index.html)
 - Approach
 - Success
 - Why Slalom
+- Client Stories
 - Next steps
 
 ---
@@ -439,6 +440,31 @@ Phase 1 establishes the baselines, targets, and measurement infrastructure neede
 
 ---
 
+## Relevant Experience
+
+**Eyebrow:** Relevant experience
+
+**Headline:** Proof where the model gets complicated.
+
+Client stories belong one level deeper than this executive narrative. Here, we surface the kinds of experience that matter most; the full story page can carry the detail, references, and outcomes.
+
+### Proof Teasers
+
+1. **D2C fulfillment alongside B2B**
+   - D2C fulfillment alongside established B2B operations.
+
+2. **Global medical device CX**
+   - Global medical device CX transformation across sales, service, and marketing.
+
+3. **Consent-based digital outreach**
+   - Consent-based digital outreach for patient engagement and outcomes capture.
+
+**CTA:** Explore client stories
+
+**CTA link:** client-stories.html
+
+---
+
 ## Why Slalom
 
 **Eyebrow:** Your partner
@@ -529,3 +555,67 @@ The question is how to move from opportunity to execution-thoughtfully, strategi
 Prepared for Resmed by Slalom. Confidential.
 
 **Back to top:** Opportunity
+
+---
+
+## Client Stories Page Stub
+
+**Page:** client-stories.html
+
+**Eyebrow:** Client stories
+
+**Headline:** Relevant proof for the work ahead.
+
+This page contains three Slalom examples that support the Resmed omnichannel strategy: D2C fulfillment alongside B2B operations, global medical device CX transformation, and consent-based digital patient outreach.
+
+### Story Themes
+
+**Eyebrow:** Story themes
+
+**Headline:** Evidence mapped to the riskiest questions.
+
+Each story should connect to a specific decision Resmed needs to make: identity and consent, direct engagement, partner enablement, patient journey orchestration, or measurable business impact.
+
+1. **D2C fulfillment for a consumer goods manufacturer**
+   - Designed a scalable D2C fulfillment process alongside established B2B operations.
+   - Protected existing B2B fulfillment.
+   - Defined integration architecture.
+   - Delivered specs in 12 weeks.
+
+2. **Global CX transformation for a medical device company**
+   - Unified patient experience across sales, service, and marketing to scale 3x.
+   - Redesigned the full patient journey.
+   - Unified 19+ systems with MuleSoft.
+   - Launched a patient self-service portal.
+
+3. **Consent-based digital outreach**
+   - Closed care gaps and captured patient-reported outcomes through personalized, consent-driven engagement.
+   - Integrated EHR and Salesforce data.
+   - Used preferred-channel outreach.
+   - Addressed consent and identity directly.
+
+### Story Detail
+
+These stories can be refined further once approved source material, client names, and measurable outcomes are confirmed from the client-story-reference folder.
+
+1. **Client story 01: D2C fulfillment for a consumer goods manufacturer**
+   - Headline: Designing a scalable D2C fulfillment process alongside established B2B operations.
+   - Why it matters to Resmed: ResMed faces a similar challenge-expanding into direct-to-consumer while protecting existing B2B channels. This engagement shows how to stand up D2C capabilities without disrupting what already works.
+   - Story abstract: A leading manufacturer partnered with a major retailer to produce private-label products. While 90% of orders flowed through established B2B fulfillment, 10% required a new direct-to-consumer dropship process. Slalom designed the end-to-end D2C fulfillment process, defined integration architecture, and delivered functional and technical specifications-creating a foundation that supports the immediate partnership while enabling future D2C expansion.
+   - Key takeaways: Built D2C fulfillment alongside existing B2B operations-not instead of them; delivered complete process design, integration inventory, and implementation specs in 12 weeks; created a scalable foundation for future direct-to-consumer growth.
+
+2. **Client story 02: Global CX transformation for a medical device company**
+   - Headline: Unifying patient experience across sales, service, and marketing to scale 3x.
+   - Why it matters to Resmed: This client faced the same imperative: create a seamless patient experience across channels while scaling aggressively. The transformation required journey redesign, platform consolidation, and organizational change-exactly what ResMed's omnichannel expansion demands.
+   - Story abstract: A global medical device company needed to reimagine the patient journey-from awareness through onboarding, service, and billing-to support 3x revenue growth. Over two years, Slalom partnered with the client to redesign each phase of the patient experience and enable it through Salesforce Health, Sales, Service, Marketing, Communities and MuleSoft integration. The program included robust change management, data governance, and compliance strategy across a validated environment.
+   - Key takeaways: Redesigned the full patient journey across awareness, ordering, onboarding, service, and billing; unified customer view across 19+ systems via MuleSoft integration; launched a patient portal enabling self-service for orders, issues, and preferences-reducing call handling time and improving engagement.
+
+3. **Client story 03: Consent-based digital outreach**
+   - Headline: Closing care gaps and capturing patient-reported outcomes through personalized, consent-driven engagement.
+   - Why it matters to Resmed: This story directly addresses patient consent and identity-critical for ResMed's omnichannel expansion. It demonstrates how to engage patients in their preferred channels, at scale, while respecting consent and driving measurable outcomes.
+   - Story abstract: A top-10 integrated delivery network needed to improve care gap closure and capture patient-reported outcomes post-surgery. Using Salesforce Health Cloud, Marketing Cloud, and Data Cloud integrated with the EHR, Slalom built a consent-based outreach model that supported personalized engagement and outcome capture.
+   - Key takeaways: Built consent-aware patient outreach connected to EHR data; used patient segmentation and preferred-channel engagement to drive action; helped close care gaps and capture patient-reported outcomes while reducing administrative burden.
+
+**Recommended emphasis:** Story 3 is the strongest proof point for consent and identity resolution. Consider featuring it prominently in the Why Slalom section or as a callout near the Technology questions.
+
+**Return CTA:** Return to Why Slalom
