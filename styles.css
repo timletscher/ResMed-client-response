@@ -1375,8 +1375,120 @@ a:focus-visible {
   line-height: 1.5;
 }
 
+.story-detail .story-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--blue);
+  font-size: 0.9rem;
+  font-weight: 850;
+  text-decoration: none;
+}
+
+.story-detail .story-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .story-return {
   margin-top: 1.4rem;
+}
+
+.perspectives-hero {
+  min-height: 52svh;
+  display: grid;
+  align-items: center;
+  background:
+    radial-gradient(circle at 86% 10%, rgba(12, 98, 251, 0.12) 0 8%, transparent 20%),
+    linear-gradient(135deg, #fff 0 68%, #f3f5f8 68%);
+}
+
+.perspectives-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.6fr);
+  align-items: end;
+  gap: clamp(2rem, 5vw, 5rem);
+}
+
+.perspectives-hero h1 {
+  max-width: 900px;
+  margin-bottom: 0;
+  font-size: clamp(3.2rem, 6vw, 6.4rem);
+  line-height: 0.92;
+  letter-spacing: -0.07em;
+}
+
+.perspectives-hero-lede {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: clamp(1.05rem, 1.35vw, 1.3rem);
+  line-height: 1.6;
+}
+
+.perspective-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.perspective-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: clamp(1.5rem, 2.1vw, 2.4rem);
+  background: var(--paper);
+  border-top: 7px solid var(--blue);
+  box-shadow: var(--shadow);
+}
+
+.perspective-card:nth-child(2) { border-top-color: var(--cyan); }
+.perspective-card:nth-child(3) { border-top-color: var(--coral); }
+
+.perspective-card span {
+  margin-bottom: auto;
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.perspective-card h3 {
+  margin: 1rem 0 0.8rem;
+  font-size: clamp(1.65rem, 2vw, 2.3rem);
+  line-height: 1.04;
+  letter-spacing: -0.05em;
+}
+
+.perspective-card p {
+  margin-bottom: 1.2rem;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.perspective-card a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: auto;
+  color: var(--blue);
+  font-size: 0.9rem;
+  font-weight: 850;
+  text-decoration: none;
+}
+
+.perspective-card a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.perspectives-return {
+  margin-top: 1.4rem;
+}
+
+@media (max-width: 900px) {
+  .perspectives-hero-grid,
+  .perspective-grid { grid-template-columns: 1fr; }
 }
 
 .partner {
