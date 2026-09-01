@@ -191,7 +191,7 @@ a:focus-visible {
   display: flex;
   align-items: stretch;
   overflow-x: auto;
-  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .site-nav::-webkit-scrollbar { display: none; }
@@ -1659,7 +1659,7 @@ a:focus-visible {
   .difference-grid { grid-template-columns: 1fr; }
   .force-card,
   .proof-card,
-  .difference { min-height: auto; }
+  .difference { min-height: 0; }
   .story-detail { grid-template-columns: 1fr; }
   .story-detail header { border-right: 0; border-bottom: 1px solid var(--line); }
   .force-card .index-mark,
@@ -1684,7 +1684,7 @@ a:focus-visible {
   html { scroll-padding-top: 112px; }
   .brand-lockup { justify-content: space-between; }
   .brand-lockup small { font-size: 0.64rem; }
-  .hero { min-height: auto; padding-top: 4rem; }
+  .hero { min-height: 0; padding-top: 4rem; }
   .hero h1 { font-size: clamp(3.15rem, 15vw, 5.5rem); }
   .stories-hero h1 { font-size: clamp(3.15rem, 14vw, 5.5rem); }
   .hero-image { margin-right: 14px; box-shadow: 14px 14px 0 var(--cyan); }
@@ -1748,5 +1748,5 @@ a:focus-visible {
   .hero-image,
   .market-pulse,
   .partner,
-  .next-steps { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  .next-steps { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 }
