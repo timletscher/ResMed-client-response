@@ -17,6 +17,15 @@
   --shell: 1480px;
   --gutter: clamp(1.25rem, 4vw, 4.75rem);
   --section: clamp(5.25rem, 9vw, 9rem);
+  --type-label-sm: 0.9rem;
+  --type-label-md: 1.15rem;
+  --type-label-lg: 1.32rem;
+  --type-index-md: 1.44rem;
+  --type-body-sm: 0.82rem;
+  --type-body-md: 0.95rem;
+  --type-body-lg: 1.125rem;
+  --type-card-heading: clamp(1.55rem, 2.2vw, 2.4rem);
+  --type-section-heading: clamp(2.9rem, 5vw, 5.6rem);
   --shadow: 0 18px 50px rgba(9, 9, 28, 0.08);
 }
 
@@ -219,17 +228,64 @@ a:focus-visible {
   background: var(--cyan);
 }
 
-.eyebrow {
-  margin-bottom: 0.9rem;
-  color: var(--blue);
-  font-size: 1.15rem;
-  font-weight: 900;
-  letter-spacing: 0.17em;
+.label,
+.eyebrow,
+.inflection-heading span,
+.week-plan-heading span,
+.question-thesis > span,
+.domain header p,
+.domain h4,
+.phase > span,
+.phase em,
+.phase-one-header span,
+.outcome-panel > span,
+.future-phase > span,
+.team-heading > span,
+.ways-working > span,
+.closing-note > span,
+.story-detail header span {
+  color: var(--label-color, var(--blue));
+  font-size: var(--label-size, var(--type-label-md));
+  font-weight: var(--label-weight, 900);
+  letter-spacing: var(--label-tracking, 0.13em);
   text-transform: uppercase;
 }
 
+.index-mark {
+  display: block;
+  color: #b7bac3;
+  font-size: var(--type-index-md);
+  font-weight: 900;
+  line-height: 1;
+}
+
+.surface-card,
+.journey-card,
+.force-card,
+.domain,
+.workstream,
+.metric,
+.proof-card,
+.story-detail {
+  background: var(--surface-bg, var(--paper));
+  border: 1px solid var(--line);
+}
+
+.elevated-card,
+.journey-card,
+.force-card,
+.proof-card {
+  box-shadow: var(--card-shadow, 0 10px 35px rgba(9, 9, 28, 0.045));
+}
+
+.eyebrow {
+  margin-bottom: 0.9rem;
+  --label-size: var(--type-label-md);
+  --label-tracking: 0.17em;
+}
+
 .eyebrow-light {
-  color: var(--cyan);
+  --label-color: var(--cyan);
 }
 
 .button {
@@ -330,7 +386,7 @@ a:focus-visible {
 .market-pulse h2,
 .next-copy h2 {
   margin-bottom: 1.2rem;
-  font-size: clamp(2.9rem, 5vw, 5.6rem);
+  font-size: var(--type-section-heading);
   line-height: 0.94;
   letter-spacing: -0.057em;
 }
@@ -395,21 +451,16 @@ a:focus-visible {
   display: flex;
   flex-direction: column;
   padding: 1.25rem;
-  background: var(--paper);
-  border: 1px solid var(--line);
+  --card-shadow: 0 9px 28px rgba(9, 9, 28, 0.05);
   border-top: 6px solid var(--blue);
-  box-shadow: 0 9px 28px rgba(9, 9, 28, 0.05);
   transition: transform 180ms ease, box-shadow 180ms ease;
 }
 
 .journey-card.owner-partner { border-top-color: var(--purple); }
 .journey-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
 
-.journey-number {
+.journey-card .index-mark {
   margin-bottom: auto;
-  color: #bcc0c9;
-  font-size: 0.72rem;
-  font-weight: 900;
   letter-spacing: 0.08em;
 }
 
@@ -537,21 +588,15 @@ a:focus-visible {
 .force-card {
   min-height: 430px;
   padding: clamp(1.8rem, 3vw, 3rem);
-  background: var(--paper);
-  border: 1px solid var(--line);
   border-top: 7px solid var(--blue);
-  box-shadow: 0 10px 35px rgba(9, 9, 28, 0.045);
 }
 
 .force-card:nth-child(2) { border-top-color: var(--cyan); }
 .force-card:nth-child(3) { border-top-color: var(--coral); }
 
-.card-index {
+.force-card .index-mark {
   display: block;
   margin-bottom: clamp(3rem, 6vw, 6rem);
-  color: #b7bac3;
-  font-size: 2.16rem;
-  font-weight: 900;
 }
 
 .force-card h3 {
@@ -593,11 +638,8 @@ a:focus-visible {
 
 .inflection-heading span,
 .week-plan-heading span {
-  color: var(--blue);
-  font-size: 1.32rem;
-  font-weight: 900;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  --label-size: var(--type-label-lg);
+  --label-tracking: 0.14em;
 }
 
 .inflection-heading strong,
@@ -671,11 +713,8 @@ a:focus-visible {
 }
 
 .question-thesis > span {
-  color: var(--cyan);
-  font-size: 0.64rem;
-  font-weight: 900;
-  letter-spacing: 0.13em;
-  text-transform: uppercase;
+  --label-color: var(--cyan);
+  --label-size: var(--type-label-sm);
 }
 
 .question-thesis > p {
@@ -713,8 +752,6 @@ a:focus-visible {
 
 .domain {
   --domain-accent: var(--blue);
-  background: var(--paper);
-  border: 1px solid var(--line);
   border-top: 7px solid var(--domain-accent);
 }
 
@@ -732,20 +769,12 @@ a:focus-visible {
   border-bottom: 1px solid var(--line);
 }
 
-.domain > header > span {
-  color: var(--domain-accent);
-  font-size: clamp(2.5rem, 5vw, 5rem);
-  font-weight: 850;
-  line-height: 1;
-}
-
 .domain header p {
   margin-bottom: 0.2rem;
-  color: var(--muted);
-  font-size: 0.67rem;
-  font-weight: 850;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  --label-color: var(--muted);
+  --label-size: 1.1rem;
+  --label-weight: 850;
+  --label-tracking: 0.08em;
 }
 
 .domain header h3 {
@@ -771,10 +800,9 @@ a:focus-visible {
 
 .domain h4 {
   margin-bottom: 1.2rem;
-  color: var(--domain-accent);
-  font-size: 0.9rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  --label-color: var(--domain-accent);
+  --label-size: var(--type-label-sm);
+  --label-tracking: 0.12em;
 }
 
 .domain ul {
@@ -808,7 +836,7 @@ a:focus-visible {
 
 .domain-considerations li {
   color: var(--muted);
-  font-size: 0.76rem;
+  font-size: 1rem;
   line-height: 1.45;
 }
 
@@ -862,11 +890,7 @@ a:focus-visible {
 }
 
 .phase > span {
-  color: var(--blue);
-  font-size: 1.32rem;
-  font-weight: 900;
-  letter-spacing: 0.13em;
-  text-transform: uppercase;
+  --label-size: var(--type-label-lg);
 }
 
 .phase.active > span { color: var(--cyan); }
@@ -894,11 +918,9 @@ a:focus-visible {
 .phase.active p { color: #c6c7cf; }
 
 .phase em {
-  color: var(--blue);
-  font-size: 1.15rem;
+  --label-size: var(--type-label-md);
+  --label-weight: 700;
   font-style: normal;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
 .phase.active em { color: var(--cyan); }
@@ -921,11 +943,7 @@ a:focus-visible {
 .team-heading > span,
 .ways-working > span,
 .closing-note > span {
-  color: var(--blue);
-  font-size: 1.32rem;
-  font-weight: 900;
-  letter-spacing: 0.13em;
-  text-transform: uppercase;
+  --label-size: var(--type-label-lg);
 }
 
 .phase-one-header h3 {
@@ -950,8 +968,6 @@ a:focus-visible {
 .workstream {
   min-height: 300px;
   padding: 1.5rem;
-  background: var(--paper);
-  border: 1px solid var(--line);
   border-top: 6px solid var(--blue);
 }
 
@@ -1028,8 +1044,8 @@ a:focus-visible {
 
 .outcome-panel li {
   color: var(--paper);
-  font-size: 0.82rem;
-  font-weight: 750;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .outcome-panel li::before {
@@ -1126,8 +1142,6 @@ a:focus-visible {
 .metric {
   display: grid;
   grid-template-columns: minmax(320px, 0.7fr) minmax(0, 1fr);
-  background: var(--paper);
-  border: 1px solid var(--line);
   border-left: 7px solid var(--blue);
 }
 
@@ -1148,12 +1162,6 @@ a:focus-visible {
   border-right: 1px solid var(--line);
 }
 
-.metric header > span {
-  color: var(--blue);
-  font-size: 0.72rem;
-  font-weight: 900;
-}
-
 .metric h3 {
   margin-bottom: 0.5rem;
   font-size: clamp(1.6rem, 2.7vw, 2.7rem);
@@ -1164,7 +1172,7 @@ a:focus-visible {
 .metric header p {
   margin-bottom: 0;
   color: var(--muted);
-  font-size: 0.82rem;
+  font-size: 1.3rem;
 }
 
 .metric > div > p {
@@ -1185,7 +1193,7 @@ a:focus-visible {
 .metric li {
   position: relative;
   padding-left: 1rem;
-  font-size: 1.125rem;
+  font-size: var(--type-body-lg);
   font-weight: 500;
 }
 
@@ -1219,25 +1227,19 @@ a:focus-visible {
   display: flex;
   flex-direction: column;
   padding: clamp(1.6rem, 2.7vw, 2.6rem);
-  background: var(--paper);
-  border: 1px solid var(--line);
   border-top: 7px solid var(--blue);
-  box-shadow: 0 10px 35px rgba(9, 9, 28, 0.045);
 }
 
 .proof-card:nth-child(2) { border-top-color: var(--cyan); }
 .proof-card:nth-child(3) { border-top-color: var(--coral); }
 
-.proof-card span {
+.proof-card .index-mark {
   margin-bottom: auto;
-  color: #b7bac3;
-  font-size: 1.44rem;
-  font-weight: 900;
 }
 
 .proof-card h3 {
   margin-bottom: 0.9rem;
-  font-size: clamp(1.55rem, 2.2vw, 2.4rem);
+  font-size: var(--type-card-heading);
   line-height: 1;
   letter-spacing: -0.04em;
 }
@@ -1245,7 +1247,7 @@ a:focus-visible {
 .proof-card p {
   margin-bottom: 0;
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: var(--type-body-md);
   line-height: 1.5;
 }
 
@@ -1300,6 +1302,8 @@ a:focus-visible {
 
 .story-detail-list {
   list-style: none;
+  display: grid;
+  gap: 1rem;
   margin: 0;
   padding: 0;
 }
@@ -1308,16 +1312,9 @@ a:focus-visible {
   background: var(--cloud);
 }
 
-.story-detail-list {
-  display: grid;
-  gap: 1rem;
-}
-
 .story-detail {
   display: grid;
   grid-template-columns: minmax(240px, 0.48fr) minmax(0, 1fr);
-  background: var(--paper);
-  border: 1px solid var(--line);
   border-left: 7px solid var(--blue);
 }
 
@@ -1334,11 +1331,8 @@ a:focus-visible {
 }
 
 .story-detail header span {
-  color: var(--blue);
-  font-size: 0.9rem;
-  font-weight: 900;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  --label-size: var(--type-label-sm);
+  --label-tracking: 0.12em;
 }
 
 .story-detail h3 {
@@ -1410,12 +1404,9 @@ a:focus-visible {
 .difference:nth-child(2) { border-top-color: var(--cyan); }
 .difference:nth-child(3) { border-top-color: var(--coral); }
 
-.difference > span {
+.difference > .index-mark {
   display: block;
   margin-bottom: clamp(3.5rem, 7vw, 6.5rem);
-  color: var(--cyan);
-  font-size: 1.44rem;
-  font-weight: 900;
 }
 
 .difference h3 {
@@ -1427,7 +1418,7 @@ a:focus-visible {
 
 .difference p {
   color: #aeb0bb;
-  font-size: 0.82rem;
+  font-size: 1rem;
 }
 
 .difference .difference-lede {
@@ -1436,7 +1427,7 @@ a:focus-visible {
   font-weight: 750;
 }
 
-.difference li { color: #c4c5cc; }
+.difference li { color: #c4c5cc; font-size: 1rem; }
 .difference li::before { background: var(--cyan); }
 
 .team-model {
@@ -1671,8 +1662,8 @@ a:focus-visible {
   .difference { min-height: auto; }
   .story-detail { grid-template-columns: 1fr; }
   .story-detail header { border-right: 0; border-bottom: 1px solid var(--line); }
-  .card-index,
-  .difference > span { margin-bottom: 3rem; }
+  .force-card .index-mark,
+  .difference > .index-mark { margin-bottom: 3rem; }
   .inflection-track { overflow-x: auto; grid-template-columns: repeat(6, minmax(180px, 1fr)); padding-bottom: 1rem; }
   .phase-roadmap { grid-template-columns: 1fr; }
   .phase { min-height: 260px; }
@@ -1697,7 +1688,6 @@ a:focus-visible {
   .hero h1 { font-size: clamp(3.15rem, 15vw, 5.5rem); }
   .stories-hero h1 { font-size: clamp(3.15rem, 14vw, 5.5rem); }
   .hero-image { margin-right: 14px; box-shadow: 14px 14px 0 var(--cyan); }
-  .signal-metrics { grid-template-columns: 1fr; }
   .section-heading h2,
   .market-pulse h2 { font-size: clamp(2.65rem, 12vw, 4rem); }
   .journey-legend { justify-content: flex-start; flex-wrap: wrap; }
