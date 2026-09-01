@@ -146,6 +146,7 @@ a:focus-visible {
   background: rgba(9, 9, 28, 0.96);
   color: var(--paper);
   border-bottom: 1px solid #27273a;
+  -webkit-backdrop-filter: blur(16px);
   backdrop-filter: blur(16px);
 }
 
