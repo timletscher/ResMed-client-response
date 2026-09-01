@@ -1248,6 +1248,19 @@ a:focus-visible {
   line-height: 1.5;
 }
 
+.proof-card-link {
+  margin-top: 1.2rem;
+  color: var(--blue);
+  font-size: 0.9rem;
+  font-weight: 850;
+  text-decoration: none;
+}
+
+.proof-card-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .proof-link {
   margin-top: 1.4rem;
 }
@@ -1284,71 +1297,10 @@ a:focus-visible {
   line-height: 1.6;
 }
 
-.story-index {
-  background: var(--paper);
-}
-
-.story-card-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.75rem;
-}
-
-.story-card {
-  min-height: 420px;
-  display: flex;
-  flex-direction: column;
-  padding: clamp(1.7rem, 2.7vw, 2.8rem);
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-top: 7px solid var(--blue);
-  box-shadow: 0 10px 35px rgba(9, 9, 28, 0.045);
-}
-
-.story-card:nth-child(2) { border-top-color: var(--cyan); }
-.story-card:nth-child(3) { border-top-color: var(--coral); }
-
-.story-card > span {
-  margin-bottom: auto;
-  color: #b7bac3;
-  font-size: 1.44rem;
-  font-weight: 900;
-}
-
-.story-card h3 {
-  margin-bottom: 1rem;
-  font-size: clamp(1.65rem, 2.3vw, 2.6rem);
-  line-height: 1;
-  letter-spacing: -0.04em;
-}
-
-.story-card p {
-  color: var(--muted);
-  font-size: 0.95rem;
-}
-
-.story-card ul,
 .story-detail-list {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-.story-card li {
-  position: relative;
-  padding: 0.35rem 0 0.35rem 1rem;
-  color: var(--muted);
-  font-size: 0.9rem;
-}
-
-.story-card li::before {
-  content: "";
-  position: absolute;
-  top: 0.88rem;
-  left: 0;
-  width: 0.34rem;
-  height: 0.34rem;
-  background: var(--blue);
 }
 
 .story-template {
@@ -1399,6 +1351,14 @@ a:focus-visible {
   color: var(--muted);
   font-size: 1rem;
   line-height: 1.55;
+}
+
+.story-detail .story-headline {
+  color: var(--ink);
+  font-size: clamp(1.25rem, 1.8vw, 1.65rem);
+  font-weight: 850;
+  line-height: 1.18;
+  letter-spacing: -0.025em;
 }
 
 .story-detail p:last-child {
@@ -1704,11 +1664,9 @@ a:focus-visible {
   .market-note { grid-column: 1; margin-top: 0; }
   .force-grid,
   .proof-grid,
-  .story-card-grid,
   .difference-grid { grid-template-columns: 1fr; }
   .force-card,
   .proof-card,
-  .story-card,
   .difference { min-height: auto; }
   .story-detail { grid-template-columns: 1fr; }
   .story-detail header { border-right: 0; border-bottom: 1px solid var(--line); }
